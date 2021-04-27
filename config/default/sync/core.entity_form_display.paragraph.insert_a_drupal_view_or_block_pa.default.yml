@@ -1,0 +1,34 @@
+uuid: 540a2a4a-f3b1-4fb5-a61f-66373efb769f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.insert_a_drupal_view_or_block_pa.field_view_block_select
+    - paragraphs.paragraphs_type.insert_a_drupal_view_or_block_pa
+id: paragraph.insert_a_drupal_view_or_block_pa.default
+targetEntityType: paragraph
+bundle: insert_a_drupal_view_or_block_pa
+mode: default
+content:
+  admin_title:
+    type: string_textfield
+    weight: -10
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_view_block_select:
+    weight: 0
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+      match_limit: 10
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+    region: content
+hidden:
+  created: true
+  status: true
+  uid: true

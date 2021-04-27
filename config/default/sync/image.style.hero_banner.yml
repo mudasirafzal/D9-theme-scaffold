@@ -1,0 +1,15 @@
+uuid: ea8c71f7-513b-466f-845a-a521ad2eb39e
+langcode: en
+status: true
+dependencies: {  }
+name: hero_banner
+label: 'Hero Banner (1920x725)'
+effects:
+  a94794ae-4b40-47a9-9b05-98b96771ef4c:
+    uuid: a94794ae-4b40-47a9-9b05-98b96771ef4c
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 1920
+      height: 725
+      anchor: center-top

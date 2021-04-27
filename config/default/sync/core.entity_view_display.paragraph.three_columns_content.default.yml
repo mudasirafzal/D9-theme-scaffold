@@ -1,0 +1,59 @@
+uuid: c2f689d5-9e8a-4d8a-8c67-ede84c53c64b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.three_columns_content.field_add_three_columns
+    - field.field.paragraph.three_columns_content.field_heading_style
+    - field.field.paragraph.three_columns_content.field_headline
+    - field.field.paragraph.three_columns_content.field_intro_text
+    - field.field.paragraph.three_columns_content.field_layout_three_columns
+    - paragraphs.paragraphs_type.three_columns_content
+  module:
+    - entity_reference_revisions
+    - options
+    - text
+id: paragraph.three_columns_content.default
+targetEntityType: paragraph
+bundle: three_columns_content
+mode: default
+content:
+  field_add_three_columns:
+    type: entity_reference_revisions_entity_view
+    weight: 4
+    label: hidden
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    region: content
+  field_heading_style:
+    weight: 1
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: list_default
+    region: content
+  field_headline:
+    weight: 0
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_intro_text:
+    weight: 2
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_layout_three_columns:
+    weight: 3
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: list_default
+    region: content
+hidden: {  }

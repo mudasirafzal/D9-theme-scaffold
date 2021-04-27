@@ -1,0 +1,13 @@
+@import '../settings.all';
+
+.paragraph--type--text {
+  margin-bottom: rem(120px);
+}
+.paragraph-text__title {
+  margin: 0px;
+}
+.paragraph-text__text {
+  p {
+    margin: rem(16px) 0px;
+  }
+}

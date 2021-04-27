@@ -1,0 +1,15 @@
+uuid: c60c31e1-f8e4-419b-9002-3906996450e3
+langcode: en
+status: true
+dependencies: {  }
+name: carousel_image
+label: 'Carousel Image (350x370)'
+effects:
+  97d1cc07-f5dc-4176-9f83-d7157491b432:
+    uuid: 97d1cc07-f5dc-4176-9f83-d7157491b432
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 350
+      height: 370
+      anchor: center-top

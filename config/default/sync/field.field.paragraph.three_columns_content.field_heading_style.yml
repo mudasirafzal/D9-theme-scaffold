@@ -1,0 +1,21 @@
+uuid: 8a9136a6-6789-444a-83f1-692a865e0a5a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_heading_style
+    - paragraphs.paragraphs_type.three_columns_content
+  module:
+    - options
+id: paragraph.three_columns_content.field_heading_style
+field_name: field_heading_style
+entity_type: paragraph
+bundle: three_columns_content
+label: 'Heading style'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

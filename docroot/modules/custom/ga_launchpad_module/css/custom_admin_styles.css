@@ -1,0 +1,36 @@
+input#edit-override-admintheme-css.form-checkbox {
+  height: 50px;
+  width: 50px;
+}
+
+.field--name-field-layout-two-columns .form-item,
+.field--name-field-layout-three-columns .form-item,
+.field--name-field-layout-four-columns .form-item {
+  display: inline-block;
+}
+
+.field--name-field-layout-two-columns .form-item input,
+.field--name-field-layout-three-columns .form-item input,
+.field--name-field-layout-four-columns .form-item input{
+  display: none;
+}
+
+.field--name-field-layout-two-columns .form-item label,
+.field--name-field-layout-three-columns .form-item label,
+.field--name-field-layout-four-columns .form-item label {
+  height: 35px;
+  display: block;
+}
+
+.field--name-field-layout-two-columns .form-item label img,
+.field--name-field-layout-three-columns .form-item label img,
+.field--name-field-layout-four-columns .form-item label img {
+  border: 1px solid transparent;
+}
+
+.field--name-field-layout-two-columns .form-item input:checked + label img,
+.field--name-field-layout-three-columns .form-item input:checked + label img,
+.field--name-field-layout-four-columns .form-item input:checked + label img
+{
+  border: 1px solid #26a523;
+}

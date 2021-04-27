@@ -1,0 +1,46 @@
+uuid: a0909383-3346-4591-82f8-8e15307b30a9
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_add_card
+    - paragraphs.paragraphs_type.card
+    - paragraphs.paragraphs_type.card_sets
+  module:
+    - entity_reference_revisions
+id: paragraph.card_sets.field_add_card
+field_name: field_add_card
+entity_type: paragraph
+bundle: card_sets
+label: 'Add Card'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      card: card
+    target_bundles_drag_drop:
+      card:
+        enabled: true
+        weight: 8
+      card_sets:
+        weight: 7
+        enabled: false
+      content_section:
+        weight: 9
+        enabled: false
+      form:
+        weight: 10
+        enabled: false
+      image:
+        weight: 11
+        enabled: false
+      text:
+        weight: 12
+        enabled: false
+field_type: entity_reference_revisions

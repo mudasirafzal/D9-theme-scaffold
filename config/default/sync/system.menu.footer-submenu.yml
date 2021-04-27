@@ -1,0 +1,8 @@
+uuid: 9b47adfa-cbe2-421b-92cc-a97c1d22aeb8
+langcode: en
+status: true
+dependencies: {  }
+id: footer-submenu
+label: 'Footer submenu'
+description: 'Additional footer links, e.g. T&Cs, Privacy Policy'
+locked: false

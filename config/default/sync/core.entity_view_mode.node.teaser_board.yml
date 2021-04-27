@@ -1,0 +1,10 @@
+uuid: b7df8dbf-b4a0-4d2b-aa56-55725c8069b2
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.teaser_board
+label: 'Teaser Board'
+targetEntityType: node
+cache: true

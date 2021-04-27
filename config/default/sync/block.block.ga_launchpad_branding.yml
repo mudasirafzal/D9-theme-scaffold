@@ -1,0 +1,23 @@
+uuid: 8b16e69e-33b5-4fa0-9366-6bb55252878f
+langcode: en
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - ga_launchpad
+id: ga_launchpad_branding
+theme: ga_launchpad
+region: ''
+weight: 0
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  provider: system
+  label_display: '0'
+  use_site_logo: true
+  use_site_name: true
+  use_site_slogan: true
+visibility: {  }

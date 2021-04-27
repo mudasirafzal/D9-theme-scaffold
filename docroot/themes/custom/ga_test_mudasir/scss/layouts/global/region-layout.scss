@@ -1,0 +1,25 @@
+@import '../../settings.all';
+
+.header-region {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: rem(24px);
+  padding-bottom: rem(30px);
+  border-bottom: 3px solid var(--purple);
+  @include breakpoint($tablet) {
+    flex-direction: row;
+  }
+}
+.footer-region {
+  background-color: var(--grey98);
+}
+.footer-top {
+  padding-top: rem(41px);
+  padding-bottom: rem(40px);
+}
+.footer-bottom {
+  border-top: 1px solid var(--grey85);
+  padding-bottom: rem(40px);
+}

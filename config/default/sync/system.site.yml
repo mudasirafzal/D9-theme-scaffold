@@ -1,0 +1,14 @@
+uuid: 4574eb2c-021c-4064-aaef-6ce02a645b7f
+name: LaunchPad
+mail: developers@graphicalliance.co.uk
+slogan: Instance
+page:
+  403: ''
+  404: ''
+  front: /node/2
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: yTxtFqBHnEWxQswuWvkjE8mKw2t8oKuCL1q8KnfHuGE

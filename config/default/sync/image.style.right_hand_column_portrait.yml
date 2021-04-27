@@ -1,0 +1,16 @@
+uuid: 7dab30a4-5b23-4268-9237-319d61e8ab83
+langcode: en
+status: true
+dependencies:
+  module:
+    - ratio_crop
+name: right_hand_column_portrait
+label: 'Right hand column (portrait)'
+effects:
+  6b931a3e-915e-402d-917c-0c3123c15a17:
+    uuid: 6b931a3e-915e-402d-917c-0c3123c15a17
+    id: image_crop_ratio
+    weight: 1
+    data:
+      anchor: center-center
+      aspect_ratio: '275:324'

@@ -1,0 +1,50 @@
+uuid: eb6eccbb-3cdd-4e70-ae8f-ece53cec72f7
+langcode: en
+status: false
+dependencies:
+  module:
+    - better_social_sharing_buttons
+    - ctools
+  theme:
+    - ga_wireframe
+id: bettersocialsharingbuttons
+theme: ga_wireframe
+region: ''
+weight: -2
+provider: null
+plugin: social_sharing_buttons_block
+settings:
+  id: social_sharing_buttons_block
+  label: 'Better Social Sharing Buttons'
+  provider: better_social_sharing_buttons
+  label_display: '0'
+  services:
+    facebook: facebook
+    twitter: twitter
+    email: email
+    linkedin: linkedin
+    copy: copy
+    whatsapp: 0
+    facebook_messenger: 0
+    pinterest: 0
+    digg: 0
+    stumbleupon: 0
+    slashdot: 0
+    tumblr: 0
+    reddit: 0
+    evernote: 0
+    print: 0
+  iconset: social-icons--no-color
+  facebook_app_id: ''
+  print_css: ''
+  width: 20px
+  radius: 3px
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    bundles:
+      article: article
+      page: page
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'

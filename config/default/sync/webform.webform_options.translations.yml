@@ -1,0 +1,12 @@
+uuid: b47cd7b3-5afe-4efe-8831-9e7f95ed091b
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - webform
+id: translations
+label: Translations
+category: Language
+likert: false
+options: ''

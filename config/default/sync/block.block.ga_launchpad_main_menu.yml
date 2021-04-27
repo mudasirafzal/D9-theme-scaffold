@@ -1,0 +1,25 @@
+uuid: 17fd5fb1-2f59-41ff-9b3f-fd9e9c58f020
+langcode: en
+status: false
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - system
+  theme:
+    - ga_launchpad
+id: ga_launchpad_main_menu
+theme: ga_launchpad
+region: navigation
+weight: 0
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: 'Main navigation'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 1
+  expand_all_items: false
+visibility: {  }

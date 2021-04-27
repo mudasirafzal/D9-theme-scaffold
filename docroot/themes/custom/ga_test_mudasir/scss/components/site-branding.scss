@@ -1,0 +1,20 @@
+@import '../settings.all';
+
+.block-branding {
+  margin-bottom: rem(15px);
+  @include breakpoint($tablet) {
+    margin-bottom: 0px;
+  }
+}
+.site-logo__link {
+  display: block;
+  max-width: rem(146px);
+  width: 100%;
+  @include breakpoint($tablet) {
+    max-width: rem(176px);
+  }
+}
+.site-logo__image {
+  display: block;
+  max-width: rem(175px);
+}

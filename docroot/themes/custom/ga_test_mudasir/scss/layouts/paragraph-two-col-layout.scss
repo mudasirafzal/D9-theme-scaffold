@@ -1,0 +1,54 @@
+@import '../settings.all';
+
+.paragraph-two-col--50-50 {
+  @include breakpoint($tablet) {
+    display: flex;
+  }
+  .paragraph-item {
+    @include breakpoint($tablet) {
+      flex-basis: 50%;
+    }
+  }
+}
+.paragraph-two-col--33-66 {
+  @include breakpoint($tablet) {
+    display: flex;
+  }
+  .paragraph-item:first-child {
+    @include breakpoint($tablet) {
+      flex-basis: 33%;
+    }
+  }
+  .paragraph-item:last-child {
+    @include breakpoint($tablet) {
+      flex-basis: 66%;
+    }
+  }
+}
+.paragraph-two-col--66-33 {
+  @include breakpoint($tablet) {
+    display: flex;
+  }
+  .paragraph-item:first-child {
+    @include breakpoint($tablet) {
+      flex-basis: 66%;
+    }
+  }
+  .paragraph-item:last-child {
+    @include breakpoint($tablet) {
+      flex-basis: 33%;
+    }
+  }
+}
+.paragraph--type--two-columns-content {
+  .paragraph--type--text:last-child {
+    @include breakpoint($tablet) {
+      margin-left: rem(30px);
+    }
+  }
+}
+.paragraph--type--two-columns-content {
+  .paragraph-image__image {
+    height: 100%;
+  }
+}

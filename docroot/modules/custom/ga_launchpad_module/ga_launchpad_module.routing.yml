@@ -1,0 +1,15 @@
+ga_launchpad.ga_forms:
+  path: '/admin/ga-launchpad/forms'
+  defaults:
+    _title: 'GA Launchpad - Admin settings page'
+    _controller: '\Drupal\ga_launchpad_module\Controller\GaLaunchpadController::content'
+  requirements:
+    _role: 'administrator'
+
+ga_launchpad_module.settings:
+  path: '/admin/ga-launchpad/forms/settings'
+  defaults:
+    _title: 'GA Launchpad - Settings'
+    _form: '\Drupal\ga_launchpad_module\Form\SettingsForm'
+  requirements:
+    _role: 'administrator'

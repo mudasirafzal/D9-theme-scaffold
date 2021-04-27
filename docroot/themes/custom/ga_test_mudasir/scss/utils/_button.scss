@@ -1,0 +1,24 @@
+.btn {
+  display: inline-block;
+  font-family: $font-primary;
+  background-color: var(--purple);
+  border-radius: rem(5px);
+  color: var(--white);
+  font-weight: 600;
+  font-size: rem(18px);
+  line-height: rem(18px);
+  text-align: center;
+  padding: rem(18px) rem(34px);
+  vertical-align: middle;
+  user-select: none;
+  text-decoration: none;
+  cursor: pointer;
+  overflow-wrap: break-word;
+  transition: $transition;
+  &:hover,
+  &:focus {
+    transition: $transition;
+    color: var(--white);
+    background-color: var(--purpleDark);
+  }
+}

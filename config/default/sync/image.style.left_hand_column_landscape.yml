@@ -1,0 +1,16 @@
+uuid: c7e373c8-e703-4fdd-ad10-13cf1414378c
+langcode: en
+status: true
+dependencies:
+  module:
+    - ratio_crop
+name: left_hand_column_landscape
+label: 'Left hand column (landscape)'
+effects:
+  7c378b80-15ff-4d84-ae22-5aa9a5e2b6d0:
+    uuid: 7c378b80-15ff-4d84-ae22-5aa9a5e2b6d0
+    id: image_crop_ratio
+    weight: 1
+    data:
+      anchor: center-center
+      aspect_ratio: '307:264'

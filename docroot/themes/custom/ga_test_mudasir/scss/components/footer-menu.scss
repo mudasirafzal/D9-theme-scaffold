@@ -1,0 +1,41 @@
+@import '../settings.all';
+
+.footer-label {
+  color: var(--purple);
+  font-size: rem(16px);
+  font-weight: 600;
+  line-height: rem(24px);
+  margin: 0px;
+  margin-bottom: rem(22px);
+}
+.block-footermenu__menu {
+  display: flex;
+  flex-direction: column;
+  padding-left: 0px;
+  margin: 0px;
+}
+.block-footermenu__menu-item {
+  list-style: none;
+  line-height: rem(24px);
+  margin-bottom: rem(15px);
+}
+.block-footermenu__link {
+  @include link-item;
+  margin-bottom: rem(15px);
+}
+.block-footersubmenu__menu {
+  display: flex;
+  justify-content: flex-end;
+  margin: 0px;
+}
+.block-footersubmenu__menu-item {
+  list-style: none;
+  margin-right: rem(26px);
+  &:last-child {
+    margin-right: 0px;
+  }
+}
+.block-footersubmenu__link {
+  @include link-item;
+  font-size: rem(14px);
+}

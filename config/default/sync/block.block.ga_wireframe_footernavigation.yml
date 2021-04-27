@@ -1,0 +1,25 @@
+uuid: 28adc470-72b5-4ea6-b894-e8df94c9fa6d
+langcode: en
+status: false
+dependencies:
+  config:
+    - system.menu.footer
+  module:
+    - system
+  theme:
+    - ga_wireframe
+id: ga_wireframe_footernavigation
+theme: ga_wireframe
+region: ''
+weight: 0
+provider: null
+plugin: 'system_menu_block:footer'
+settings:
+  id: 'system_menu_block:footer'
+  label: 'Footer Links'
+  provider: system
+  label_display: visible
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

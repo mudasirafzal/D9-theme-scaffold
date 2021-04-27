@@ -1,0 +1,66 @@
+# Ignore non-custom parts of Drupal.
+/docroot/sites/*/files
+/docroot/themes/custom/*/dist
+/docroot/themes/custom/*/node_modules
+
+# Ignore binaries.
+/bin
+
+# Ignore non-custom parts of Drupal.
+/database
+/docroot/core
+/docroot/libraries
+/docroot/modules/contrib
+/docroot/modules/stage_file_proxy
+/docroot/profiles/contrib
+/docroot/themes/contrib
+
+/docroot/profiles/ga_launchpad/themes/custom/*/dist
+/docroot/profiles/ga_launchpad/themes/custom/*/node_modules
+
+!/docroot/sites/default/files
+/docroot/sites/default/files/*
+docroot/sites/default/files
+
+# Ignore Composer-managed dependencies.
+/vendor
+/.travis.yml
+/README.md
+/docroot/.csslintrc
+/docroot/.editorconfig
+/docroot/.eslintignore
+/docroot/.eslintrc.json
+/docroot/.gitattributes
+/docroot/.ht.router.php
+/docroot/.htaccess
+/docroot/autoload.php
+/docroot/index.php
+/docroot/robots.txt
+/docroot/update.php
+/docroot/web.config
+/docroot/sites/development.services.yml
+/docroot/sites/local.development.services.yml
+/docroot/sites/example.settings.local.php
+/docroot/sites/example.sites.php
+/docroot/sites/default/default.services.yml
+/docroot/sites/default/default.settings.php
+/docroot/sites/default/settings.local.php
+/drush/README.md
+.idea/*
+.lando.yml
+/docroot/sites/default/services.yml
+docroot/sites/*/*.settings.php
+/docroot/sites/sites.local.php
+
+# Ignore optional Vagrant configuration file.
+vagrant-config.yml
+.vagrant
+
+# Ignore editors
+.vscode
+
+.DS_Store
+/.editorconfig
+/.gitattributes
+/.htaccess
+/autoload.php

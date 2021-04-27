@@ -1,0 +1,24 @@
+uuid: 497cc69f-d123-4fec-acb6-85fc761dd359
+langcode: en
+status: true
+dependencies:
+  module:
+    - options
+    - paragraphs
+id: paragraph.field_layout_four_columns
+field_name: field_layout_four_columns
+entity_type: paragraph
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: 25-25-25-25
+      label: '<img src="/modules/custom/ga_launchpad_module/icon/25-25-25-25.png" alt="twenty-five"/>'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

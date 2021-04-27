@@ -1,0 +1,22 @@
+uuid: 53641cdc-fc09-49d5-9dd9-8079806aa586
+langcode: en
+status: true
+dependencies:
+  theme:
+    - ga_test_mudasir
+_core:
+  default_config_hash: X9I1OB0W3WlWtrK-CNcg6hNWwa8wficanpH8pYnDZDE
+id: ga_test_mudasir_local_tasks
+theme: ga_test_mudasir
+region: highlighted
+weight: -5
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }

@@ -1,0 +1,20 @@
+uuid: 22770e4a-fea3-4933-8284-80b07a9836ca
+langcode: en
+status: true
+dependencies:
+  theme:
+    - ga_test_mudasir
+_core:
+  default_config_hash: 13GQpeITIJsp1kyPniXtWZfyFH87vb1xxJCHifL4UeE
+id: ga_test_mudasir_local_actions
+theme: ga_test_mudasir
+region: highlighted
+weight: -4
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }

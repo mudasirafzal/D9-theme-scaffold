@@ -1,0 +1,8 @@
+uuid: d819695e-31d4-4346-84a2-db4a24db6878
+langcode: en
+status: true
+dependencies: {  }
+name: 'Views/block selector'
+vid: views_block_selector
+description: ''
+weight: 0

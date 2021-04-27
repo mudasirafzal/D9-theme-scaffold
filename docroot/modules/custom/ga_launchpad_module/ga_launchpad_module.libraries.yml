@@ -1,0 +1,11 @@
+ga_launchpad_lib:
+  version: 1.0
+  css:
+    theme:
+      css/custom_admin_styles.css: {}
+  js:
+  dependencies:
+    - core/jquery
+    - core/jquery.once
+    - core/drupal
+    - core/drupalSettings

@@ -1,0 +1,22 @@
+uuid: b5e6272c-0dcd-4946-a18e-645b033b3e35
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.insert_a_drupal_view_or_block_pa.field_view_block_select
+    - paragraphs.paragraphs_type.insert_a_drupal_view_or_block_pa
+id: paragraph.insert_a_drupal_view_or_block_pa.default
+targetEntityType: paragraph
+bundle: insert_a_drupal_view_or_block_pa
+mode: default
+content:
+  field_view_block_select:
+    weight: 0
+    label: hidden
+    settings:
+      link: true
+      view_mode: default
+    third_party_settings: {  }
+    type: entity_reference_entity_view
+    region: content
+hidden: {  }

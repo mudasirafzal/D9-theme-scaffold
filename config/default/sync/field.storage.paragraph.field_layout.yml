@@ -1,0 +1,39 @@
+uuid: 76e8353b-3ce6-4ad0-94ca-3743956d4fe4
+langcode: en
+status: true
+dependencies:
+  module:
+    - options
+    - paragraphs
+id: paragraph.field_layout
+field_name: field_layout
+entity_type: paragraph
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: center
+      label: center
+    -
+      value: left
+      label: left
+    -
+      value: right
+      label: right
+    -
+      value: '50:50'
+      label: fifty-fifty
+    -
+      value: '66:33'
+      label: sixty-six-thirty-three
+    -
+      value: '33:66'
+      label: thirty-three-sixty-six
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,61 @@
+@import '../settings.all';
+
+.paragraph--type--carousel {
+  margin-bottom: rem(120px);
+}
+.slick-slide img {
+  width: 100%;
+}
+.carousel-item__title {
+  margin: 0px;
+  margin-bottom: rem(12px);
+}
+.carousel-item__image {
+  margin-bottom: rem(40px);
+}
+.carousel-item__content {
+  p {
+    margin: 0px;
+  }
+}
+.carousel-item__button {
+  margin-top: rem(28px);
+}
+.slick-slider {
+  position: relative;
+  .slick-arrow {
+    position: absolute;
+    z-index: 1;
+    cursor: pointer;
+  }
+  .slick-prev {
+    background-size: contain;
+    background-repeat: no-repeat;
+    left: -20px;
+    height: rem(41px);
+    width: rem(41px);
+    background: url('#{$img-path:}/arrow-left.png');
+    @include breakpoint($desktop-medium) {
+      left: -10px;
+    }
+  }
+  .slick-next {
+    background-size: contain;
+    background-repeat: no-repeat;
+    right: -20px;
+    height: rem(41px);
+    width: rem(41px);
+    background: url('#{$img-path:}/arrow-right.png');
+    @include breakpoint($desktop-medium) {
+      right: -10px;
+    }
+  }
+}
+.slick-slide {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+.slick-list {
+  margin-left: -15px;
+  margin-right: -15px;
+}

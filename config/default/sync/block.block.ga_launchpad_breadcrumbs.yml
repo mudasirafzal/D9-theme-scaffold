@@ -1,0 +1,20 @@
+uuid: 0746af6e-a5c3-4cec-82f5-2e3f23760571
+langcode: en
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - ga_launchpad
+id: ga_launchpad_breadcrumbs
+theme: ga_launchpad
+region: navigation
+weight: 0
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  provider: system
+  label_display: '0'
+visibility: {  }

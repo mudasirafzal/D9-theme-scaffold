@@ -1,0 +1,13 @@
+{#
+ GA Launchpad admin settings
+
+  Available variables:
+    - links: An array of links with title & url.
+#}
+<div>
+  <ul>
+    {% for link in links %}
+      <li><a title="{{ link.title }}" href="{{ link.url }}">{{ link.title }}</a></li>
+    {% endfor %}
+  </ul>
+</div>

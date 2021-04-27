@@ -1,0 +1,20 @@
+uuid: 44f0dab3-e977-4909-a890-d1d0fb6dcbcf
+langcode: en
+status: false
+dependencies:
+  theme:
+    - ga_launchpad
+id: ga_launchpad_local_tasks
+theme: ga_launchpad
+region: ''
+weight: -40
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }

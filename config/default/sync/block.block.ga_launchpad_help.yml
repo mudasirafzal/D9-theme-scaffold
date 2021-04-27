@@ -1,0 +1,20 @@
+uuid: 4a2be5ef-9149-4719-ad2e-6242ac2fb3ab
+langcode: en
+status: false
+dependencies:
+  module:
+    - help
+  theme:
+    - ga_launchpad
+id: ga_launchpad_help
+theme: ga_launchpad
+region: ''
+weight: -30
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }

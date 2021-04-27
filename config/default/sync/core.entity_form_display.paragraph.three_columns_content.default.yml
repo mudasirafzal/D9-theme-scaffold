@@ -1,0 +1,70 @@
+uuid: 9b484d90-171f-42fe-8f37-79c7f53361e4
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.three_columns_content.field_add_three_columns
+    - field.field.paragraph.three_columns_content.field_heading_style
+    - field.field.paragraph.three_columns_content.field_headline
+    - field.field.paragraph.three_columns_content.field_intro_text
+    - field.field.paragraph.three_columns_content.field_layout_three_columns
+    - paragraphs.paragraphs_type.three_columns_content
+  module:
+    - paragraphs
+    - text
+id: paragraph.three_columns_content.default
+targetEntityType: paragraph
+bundle: three_columns_content
+mode: default
+content:
+  admin_title:
+    type: string_textfield
+    weight: -10
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_add_three_columns:
+    type: entity_reference_paragraphs
+    weight: 4
+    settings:
+      title: Paragraph
+      title_plural: Paragraphs
+      edit_mode: open
+      add_mode: dropdown
+      form_display_mode: default
+      default_paragraph_type: ''
+    third_party_settings: {  }
+    region: content
+  field_heading_style:
+    weight: 1
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+  field_headline:
+    weight: 0
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_intro_text:
+    weight: 2
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
+    region: content
+  field_layout_three_columns:
+    weight: 3
+    settings: {  }
+    third_party_settings: {  }
+    type: options_buttons
+    region: content
+hidden:
+  created: true
+  status: true

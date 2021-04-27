@@ -1,0 +1,25 @@
+uuid: b5f16f46-fa3c-4556-9dc4-0945bf6b1082
+langcode: en
+status: false
+dependencies:
+  config:
+    - system.menu.account
+  module:
+    - system
+  theme:
+    - ga_launchpad
+id: ga_launchpad_account_menu
+theme: ga_launchpad
+region: navigation
+weight: 0
+provider: null
+plugin: 'system_menu_block:account'
+settings:
+  id: 'system_menu_block:account'
+  label: 'User account menu'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 1
+  expand_all_items: false
+visibility: {  }

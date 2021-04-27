@@ -1,0 +1,30 @@
+uuid: ab32c384-d396-48b3-b77e-b5505c95c70b
+langcode: en
+status: true
+dependencies:
+  module:
+    - options
+    - paragraphs
+id: paragraph.field_layout_two_columns
+field_name: field_layout_two_columns
+entity_type: paragraph
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: '50:50'
+      label: '<img src="/modules/custom/ga_launchpad_module/icon/50-50.png" alt="fifty-fifty"/>'
+    -
+      value: '66:33'
+      label: '<img src="/modules/custom/ga_launchpad_module/icon/66-33.png" alt="sixty-six-thirty-three"/>'
+    -
+      value: '33:66'
+      label: '<img src="/modules/custom/ga_launchpad_module/icon/33-66.png" alt="thirty-three-sixty-six"/>'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

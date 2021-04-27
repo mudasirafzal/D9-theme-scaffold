@@ -1,0 +1,10 @@
+uuid: a7799529-798b-4686-bd75-2d94b72ad738
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.promoted_article
+label: 'Promoted article'
+targetEntityType: node
+cache: true

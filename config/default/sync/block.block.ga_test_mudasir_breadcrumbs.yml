@@ -1,0 +1,22 @@
+uuid: a9ea61a2-7457-43c6-a46a-a809123dc250
+langcode: en
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - ga_test_mudasir
+_core:
+  default_config_hash: oXUb3JZR2WW5VOdw4HrhRicCsq51mCgLfRyvheG68ck
+id: ga_test_mudasir_breadcrumbs
+theme: ga_test_mudasir
+region: highlighted
+weight: -2
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  provider: system
+  label_display: '0'
+visibility: {  }

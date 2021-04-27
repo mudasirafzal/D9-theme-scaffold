@@ -1,0 +1,25 @@
+uuid: 43018cf1-c106-47ad-aed2-987c1b533729
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - ga_test_mudasir
+_core:
+  default_config_hash: NDwadleLD3YVSbDUaakxyYZyINYtkFtOVGShfq4kWy8
+id: ga_test_mudasir_branding
+theme: ga_test_mudasir
+region: header
+weight: -6
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  provider: system
+  label_display: '0'
+  use_site_logo: true
+  use_site_name: true
+  use_site_slogan: true
+visibility: {  }

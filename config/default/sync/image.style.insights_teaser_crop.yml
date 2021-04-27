@@ -1,0 +1,16 @@
+uuid: 78e34717-c8d7-4124-99c7-83a75cb3298a
+langcode: en
+status: true
+dependencies:
+  module:
+    - ratio_crop
+name: insights_teaser_crop
+label: 'Insights teaser Crop'
+effects:
+  f0c578b8-b030-48c0-8527-86dd4796a145:
+    uuid: f0c578b8-b030-48c0-8527-86dd4796a145
+    id: image_crop_ratio
+    weight: 1
+    data:
+      anchor: center-center
+      aspect_ratio: '361:213'

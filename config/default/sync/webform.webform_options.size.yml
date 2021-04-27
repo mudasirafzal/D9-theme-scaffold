@@ -1,0 +1,12 @@
+uuid: d7fed3bf-fea3-4c77-bb93-88fb6a776fbb
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - webform
+id: size
+label: Size
+category: General
+likert: false
+options: "Extra Small: Extra Small\nSmall: Small\nMedium: Medium\nLarge: Large\nExtra Large: Extra Large\n"

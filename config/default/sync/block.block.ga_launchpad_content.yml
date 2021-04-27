@@ -1,0 +1,20 @@
+uuid: e36418ad-d159-4b0f-bda8-fde23c4afb1c
+langcode: en
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - ga_launchpad
+id: ga_launchpad_content
+theme: ga_launchpad
+region: ''
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }

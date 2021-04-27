@@ -1,0 +1,9 @@
+// Define Mixins here
+@mixin link-item {
+  font-size: rem(20px);
+  font-weight: 600;
+  line-height: rem(24px);
+  &.is-active {
+    color: var(--purple);
+  }
+}

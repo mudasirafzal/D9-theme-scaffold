@@ -1,0 +1,8 @@
+uuid: 14157421-ee19-45e9-adec-16a4df6a0841
+langcode: en
+status: true
+dependencies: {  }
+name: Views
+vid: views
+description: 'Predefined list of views that can be added to paragraphs'
+weight: 0

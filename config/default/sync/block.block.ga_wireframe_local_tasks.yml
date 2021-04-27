@@ -1,0 +1,20 @@
+uuid: a7a5b2a9-ffbf-4305-99ce-5418148e80b2
+langcode: en
+status: false
+dependencies:
+  theme:
+    - ga_wireframe
+id: ga_wireframe_local_tasks
+theme: ga_wireframe
+region: ''
+weight: -40
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }

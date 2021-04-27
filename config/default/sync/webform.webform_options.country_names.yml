@@ -1,0 +1,12 @@
+uuid: c1c89917-85b3-4ae7-8a09-b71ab51ffb49
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - webform
+id: country_names
+label: 'Country names'
+category: Geographic
+likert: false
+options: ''

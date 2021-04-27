@@ -1,0 +1,12 @@
+uuid: 645a7f10-c75c-4342-bf92-f5ceab93c437
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - webform
+id: time_zones
+label: 'Time zones'
+category: 'Date and time'
+likert: false
+options: ''

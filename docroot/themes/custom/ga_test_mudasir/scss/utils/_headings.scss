@@ -1,0 +1,48 @@
+h1 {
+  font-size: rem(40px);
+  font-family: $font-primary;
+  color: var(--purple);
+  font-weight: 700;
+  line-height: rem(40px);
+  letter-spacing: -0.02em;
+  @include breakpoint($tablet) {
+    font-size: rem(60px);
+    line-height: rem(60px);
+  }
+  @include breakpoint($desktop) {
+    font-size: rem(96px);
+    line-height: rem(96px);
+  }
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $font-primary;
+  color: var(--darkOnLight);
+  font-weight: 600;
+}
+
+h2 {
+  font-size: rem(76px);
+}
+
+h3 {
+  font-size: rem(50px);
+}
+
+h4 {
+  font-size: rem(40px);
+  line-height: rem(40px);
+}
+
+h5 {
+  font-size: rem(28px);
+  line-height: rem(36px);
+}
+
+h6 {
+  font-size: rem(24px);
+}

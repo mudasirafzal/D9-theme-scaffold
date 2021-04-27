@@ -1,0 +1,14 @@
+uuid: e02703c0-79cf-4f24-b67a-0345177ffdc2
+langcode: en
+status: true
+dependencies: {  }
+id: image
+label: Image
+description: 'Use local images for reusable media.'
+source: image
+queue_thumbnail_downloads: false
+new_revision: true
+source_configuration:
+  source_field: field_media_image
+field_map:
+  name: name

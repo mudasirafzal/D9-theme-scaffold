@@ -1,0 +1,18 @@
+// Define fonts here.
+@font-face {
+  font-family: 'TT Interfaces';
+  src: url('#{$font-path}/TTInterfaces/TTInterfaces-Regular.eot');
+  src: url('#{$font-path}/TTInterfaces/TTInterfaces-Regular.eot?#iefix')
+      format('embedded-opentype'),
+    url('#{$font-path}/TTInterfaces/TTInterfaces-Regular.woff2') format('woff2'),
+    url('#{$font-path}/TTInterfaces/TTInterfaces-Regular.woff') format('woff'),
+    url('#{$font-path}/TTInterfaces/TTInterfaces-Regular.ttf')
+      format('truetype'),
+    url('#{$font-path}/TTInterfaces/TTInterfaces-Regular.svg#TTInterfaces-Regular')
+      format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+$font-primary: 'TT Interfaces', 'Arial', 'Verdana', 'sans-serif';

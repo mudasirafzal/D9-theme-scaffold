@@ -1,0 +1,31 @@
+@import '../settings.all';
+
+.node-breadcrumbs {
+  margin: rem(40px) 0px;
+}
+.breadcrumb-navigation {
+  list-style: none;
+  display: flex;
+  padding-left: 0px;
+  align-items: baseline;
+  margin: 0px;
+}
+.breadcrumb__item {
+  margin-right: rem(6px);
+  font-size: rem(14px);
+  color: var(--grey63);
+  line-height: rem(20px);
+  display: flex;
+  &::after {
+    content: '/';
+    margin-top: 2px;
+    margin-left: 5px;
+  }
+  &:last-child::after {
+    content: '';
+  }
+}
+.breadcrumb__link {
+  display: block;
+  color: var(--grey63);
+}

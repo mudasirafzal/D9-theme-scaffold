@@ -1,0 +1,22 @@
+uuid: 8c823a55-17c0-4284-bf3d-94755304e6f4
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - ga_test_mudasir
+_core:
+  default_config_hash: 8I8iACSa0sKO3k3jlvUG1ge52rfcKX7USJAQYnzuBgg
+id: ga_test_mudasir_help
+theme: ga_test_mudasir
+region: highlighted
+weight: -3
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }

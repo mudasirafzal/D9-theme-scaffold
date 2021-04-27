@@ -1,0 +1,21 @@
+uuid: 1df55013-06e4-4049-a9e7-84e80a925083
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_carousel_slide_content
+    - paragraphs.paragraphs_type.carousel_slide_item
+  module:
+    - text
+id: paragraph.carousel_slide_item.field_carousel_slide_content
+field_name: field_carousel_slide_content
+entity_type: paragraph
+bundle: carousel_slide_item
+label: 'Carousel slide content'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

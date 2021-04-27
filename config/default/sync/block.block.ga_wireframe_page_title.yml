@@ -1,0 +1,18 @@
+uuid: 2b0517bf-c4c0-4480-96f0-369a32a8c632
+langcode: en
+status: false
+dependencies:
+  theme:
+    - ga_wireframe
+id: ga_wireframe_page_title
+theme: ga_wireframe
+region: content
+weight: -50
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  provider: core
+  label_display: '0'
+visibility: {  }

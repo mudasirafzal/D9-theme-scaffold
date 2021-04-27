@@ -1,0 +1,22 @@
+uuid: 6c200d57-92f3-4b38-b22a-842f9aed04de
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.icon.field_icon
+    - paragraphs.paragraphs_type.icon
+id: paragraph.icon.default
+targetEntityType: paragraph
+bundle: icon
+mode: default
+content:
+  field_icon:
+    type: entity_reference_entity_view
+    weight: 0
+    label: above
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    region: content
+hidden: {  }

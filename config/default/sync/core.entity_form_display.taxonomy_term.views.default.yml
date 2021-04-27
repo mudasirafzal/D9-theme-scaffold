@@ -1,0 +1,41 @@
+uuid: d4924fe3-df95-4bab-9c4c-05608d5a516c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.taxonomy_term.views.field_display_block
+    - field.field.taxonomy_term.views.field_machine_name
+    - taxonomy.vocabulary.views
+id: taxonomy_term.views.default
+targetEntityType: taxonomy_term
+bundle: views
+mode: default
+content:
+  field_display_block:
+    weight: 2
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_machine_name:
+    weight: 1
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  name:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  description: true
+  path: true
+  status: true

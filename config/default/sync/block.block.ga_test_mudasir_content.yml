@@ -1,0 +1,22 @@
+uuid: a51fc6ee-f067-4c7e-a727-d315e63da5d1
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - ga_test_mudasir
+_core:
+  default_config_hash: 9EoWV2Lot6FVSr50t4hoKgiz1LIXYWNG-IIPYsWxBqo
+id: ga_test_mudasir_content
+theme: ga_test_mudasir
+region: content
+weight: -6
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }

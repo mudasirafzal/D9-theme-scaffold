@@ -1,0 +1,44 @@
+uuid: f567ece9-3a08-442e-af2b-875c27c04822
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.page.body
+    - field.field.node.page.field_button
+    - field.field.node.page.field_content
+    - field.field.node.page.field_images
+    - field.field.node.page.field_meta_tags
+    - field.field.node.page.field_sub_title
+    - field.field.node.page.field_text
+    - node.type.page
+  module:
+    - entity_reference_revisions
+    - user
+_core:
+  default_config_hash: g1S3_GLaxq4l3I9RIca5Mlz02MxI2KmOquZpHw59akM
+id: node.page.default
+targetEntityType: node
+bundle: page
+mode: default
+content:
+  field_content:
+    type: entity_reference_revisions_entity_view
+    weight: 0
+    region: content
+    label: hidden
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+  links:
+    weight: 1
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  body: true
+  field_button: true
+  field_images: true
+  field_meta_tags: true
+  field_sub_title: true
+  field_text: true

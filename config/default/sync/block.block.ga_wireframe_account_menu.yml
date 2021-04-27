@@ -1,0 +1,25 @@
+uuid: ee43490e-c495-4def-83ab-feea8468cd93
+langcode: en
+status: false
+dependencies:
+  config:
+    - system.menu.account
+  module:
+    - system
+  theme:
+    - ga_wireframe
+id: ga_wireframe_account_menu
+theme: ga_wireframe
+region: sidebar_first
+weight: 0
+provider: null
+plugin: 'system_menu_block:account'
+settings:
+  id: 'system_menu_block:account'
+  label: 'User account menu'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 1
+  expand_all_items: false
+visibility: {  }

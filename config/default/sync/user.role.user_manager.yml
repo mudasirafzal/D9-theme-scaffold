@@ -1,0 +1,26 @@
+uuid: a09ac05e-bc45-42e9-8449-469bd76688ad
+langcode: en
+status: true
+dependencies: {  }
+id: user_manager
+label: 'User Manager'
+weight: 4
+is_admin: null
+permissions:
+  - 'access administration pages'
+  - 'access toolbar'
+  - 'access user profiles'
+  - 'administer users'
+  - 'assign all roles'
+  - 'create people content'
+  - 'create terms in department'
+  - 'delete any people content'
+  - 'delete own people content'
+  - 'delete people revisions'
+  - 'delete terms in department'
+  - 'edit any people content'
+  - 'edit own people content'
+  - 'edit terms in department'
+  - 'revert people revisions'
+  - 'view people revisions'
+  - 'view the administration theme'

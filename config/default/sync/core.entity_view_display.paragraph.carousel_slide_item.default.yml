@@ -1,0 +1,61 @@
+uuid: d76ec8be-e01c-4a6c-841c-34d4f32986f2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.carousel_slide_item.field_button
+    - field.field.paragraph.carousel_slide_item.field_carousel_slide_content
+    - field.field.paragraph.carousel_slide_item.field_carousel_slide_title
+    - field.field.paragraph.carousel_slide_item.field_image
+    - image.style.carousel_image
+    - paragraphs.paragraphs_type.carousel_slide_item
+  module:
+    - entity_form_field_label
+    - link
+    - media
+    - text
+id: paragraph.carousel_slide_item.default
+targetEntityType: paragraph
+bundle: carousel_slide_item
+mode: default
+content:
+  field_button:
+    weight: 3
+    label: visually_hidden
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    type: link
+    region: content
+  field_carousel_slide_content:
+    weight: 2
+    label: visually_hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_carousel_slide_title:
+    weight: 1
+    label: visually_hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_image:
+    weight: 0
+    label: visually_hidden
+    settings:
+      image_style: carousel_image
+      image_link: ''
+    third_party_settings:
+      entity_form_field_label:
+        new_label: ''
+        rewrite_label: 0
+    type: media_thumbnail
+    region: content
+hidden: {  }

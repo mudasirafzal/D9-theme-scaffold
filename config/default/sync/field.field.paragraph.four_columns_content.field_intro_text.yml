@@ -1,0 +1,21 @@
+uuid: 0588e315-367d-465d-a668-407d87298b89
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_intro_text
+    - paragraphs.paragraphs_type.four_columns_content
+  module:
+    - text
+id: paragraph.four_columns_content.field_intro_text
+field_name: field_intro_text
+entity_type: paragraph
+bundle: four_columns_content
+label: Intro
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

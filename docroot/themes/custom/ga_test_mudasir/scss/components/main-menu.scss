@@ -1,0 +1,22 @@
+@import '../settings.all';
+
+.block-mainmenu__menu {
+  display: flex;
+  padding-left: 0px;
+}
+.block-mainmenu__menu-item {
+  list-style: none;
+  margin-right: rem(16px);
+
+  @include breakpoint($tablet) {
+    margin-right: rem(46px);
+  }
+
+  &:last-child {
+    margin-right: 0px;
+  }
+}
+
+.block-mainmenu__link {
+  @include link-item;
+}

@@ -1,0 +1,19 @@
+uuid: 432fdb52-c9e1-4a40-bb31-59a7b3e786a7
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_display_block
+    - taxonomy.vocabulary.views
+id: taxonomy_term.views.field_display_block
+field_name: field_display_block
+entity_type: taxonomy_term
+bundle: views
+label: 'Display block'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

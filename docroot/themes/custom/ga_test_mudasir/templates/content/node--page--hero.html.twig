@@ -1,0 +1,34 @@
+{#
+/**
+ * @file
+ * Theme override to display a basic page hero.
+ */
+#}
+
+{{ attach_library('ga_test_mudasir/hero') }}
+
+<article{{attributes.addClass('node-page-hero')}}>
+
+	{% set hero_url = file_url(content.field_images[0]['#media'].field_media_image.entity.uri.value)  %}
+	{% if hero_url != '/' %}
+		{% set hero_url = file_url(content.field_images[0]['#media'].field_media_image.entity.uri.value|image_style('hero_banner')) %}
+		{% set hero_alt = content.field_images[0]['#media'].field_media_image.alt %}
+	{% endif %}
+
+	<div class="hero-container">
+		{% if hero_url != '/' %}
+			<div class="hero__image">
+				<img src="{{ hero_url }}" alt="{{ hero_alt }}"/>
+			</div>
+		{% endif %}
+		<div class="hero__info">
+			<h1 class="hero__title">
+				{{ label.0 }}
+			</h1>
+			{% if content.field_sub_title.0 %}
+				<h5 class="hero__sub-title">{{ content.field_sub_title.0 }}</h5>
+			{% endif %}
+		</div>
+	</div>
+
+</article>

@@ -1,0 +1,23 @@
+uuid: 31c5b61a-fac2-4c70-832e-7e49d1261e10
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_button
+    - paragraphs.paragraphs_type.carousel_slide_item
+  module:
+    - link
+id: paragraph.carousel_slide_item.field_button
+field_name: field_button
+entity_type: paragraph
+bundle: carousel_slide_item
+label: 'Carousel Button'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 1
+field_type: link

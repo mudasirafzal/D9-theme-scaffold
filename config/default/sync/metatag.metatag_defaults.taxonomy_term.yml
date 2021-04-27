@@ -1,0 +1,10 @@
+uuid: 863a3ff7-404b-49d0-a09e-dbdb2f23ad77
+langcode: en
+status: true
+dependencies: {  }
+id: taxonomy_term
+label: 'Taxonomy term'
+tags:
+  canonical_url: '[term:url]'
+  description: '[term:description]'
+  title: '[term:name] | [site:name]'

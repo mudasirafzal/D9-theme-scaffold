@@ -1,0 +1,53 @@
+global_styles:
+  css:
+    theme:
+      dist/css/global.css: {}
+      dist/css/components/site-branding.css: {}
+      dist/css/components/main-menu.css: {}
+      dist/css/components/footer-menu.css: {}
+      dist/css/layouts/region-layout.css: {}
+  js:
+    dist/scripts/global.js: {}
+  dependencies:
+    - core/jquery 
+
+hero:
+  css:
+    theme:
+      dist/css/components/hero.css: {}
+
+slick:
+  css:
+    theme:
+      /libraries/slick/slick/slick.css: {}
+  js:
+    /libraries/slick/slick/slick.js: {}
+
+carousel:
+  css:
+    theme:
+      dist/css/components/carousel.css: {}
+  js:
+    dist/scripts/carousel.js: {}
+  dependencies:
+    - ga_test_mudasir/slick  
+    
+text-component:
+  css:
+    theme:
+      dist/css/components/text-component.css: {} 
+      
+breadcrumb:
+  css:
+    theme:
+      dist/css/components/breadcrumb.css: {}
+
+image-component:
+  css:
+    theme:
+      dist/css/components/image-component.css: {}      
+
+paragraph-two-col-layout:
+  css:
+    theme:
+      dist/css/layouts/paragraph-two-col-layout.css: {}       

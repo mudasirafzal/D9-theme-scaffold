@@ -1,0 +1,16 @@
+uuid: a7f8f2a8-83ac-4c6e-8ef9-7daa90d6b91c
+langcode: en
+status: true
+dependencies:
+  module:
+    - ratio_crop
+name: homepage_header
+label: 'Homepage header'
+effects:
+  731cb9d3-374c-4591-a8a6-9543cb6f897f:
+    uuid: 731cb9d3-374c-4591-a8a6-9543cb6f897f
+    id: image_crop_ratio
+    weight: 1
+    data:
+      anchor: center-center
+      aspect_ratio: '30:19'

@@ -1,0 +1,25 @@
+uuid: d2b226a9-6b44-42d8-91c0-85f10ee38c6e
+langcode: en
+status: false
+dependencies:
+  config:
+    - system.menu.tools
+  module:
+    - system
+  theme:
+    - ga_wireframe
+id: ga_wireframe_tools
+theme: ga_wireframe
+region: sidebar_first
+weight: 0
+provider: null
+plugin: 'system_menu_block:tools'
+settings:
+  id: 'system_menu_block:tools'
+  label: Tools
+  provider: system
+  label_display: visible
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

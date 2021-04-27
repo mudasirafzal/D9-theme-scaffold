@@ -1,0 +1,16 @@
+uuid: 85296c03-ee35-41d0-a113-97d12b521ac4
+langcode: en
+status: true
+dependencies:
+  module:
+    - ratio_crop
+name: inner_page_header
+label: 'Inner page header'
+effects:
+  0da9d71a-7bd4-4d9b-8a80-14e4604b20ab:
+    uuid: 0da9d71a-7bd4-4d9b-8a80-14e4604b20ab
+    id: image_crop_ratio
+    weight: 1
+    data:
+      anchor: center-center
+      aspect_ratio: '60:19'

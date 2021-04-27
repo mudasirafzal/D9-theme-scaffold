@@ -1,0 +1,21 @@
+uuid: 2fd208ce-c698-4dfe-a39f-79266599cfa4
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_intro_text
+    - paragraphs.paragraphs_type.three_columns_content
+  module:
+    - text
+id: paragraph.three_columns_content.field_intro_text
+field_name: field_intro_text
+entity_type: paragraph
+bundle: three_columns_content
+label: Intro
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

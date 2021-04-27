@@ -1,0 +1,12 @@
+uuid: 90dfb861-4c2d-4787-b1cc-68584478f467
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - webform
+id: education
+label: Education
+category: Demographic
+likert: false
+options: "High School: High School\nAssociate Degree: Associate Degree\nGraduate or Professional Degree: Graduate or Professional Degree\nSome College: Some College\n"

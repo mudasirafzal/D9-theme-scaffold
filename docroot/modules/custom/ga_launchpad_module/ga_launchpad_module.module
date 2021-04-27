@@ -1,0 +1,77 @@
+<?php
+
+/**
+ * @file
+ * Contains ga_launchpad_module.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+use Drupal\Core\Form\FormStateInterface;
+use Drupal\Core\Entity\EntityInterface;
+
+/**
+ * Implements hook_help().
+ */
+function ga_launchpad_module_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    case 'help.page.ga_launchpad_module':
+      $output = '';
+      $output .= '<h3>' . t('GA Launchpad - admin') . '</h3>';
+      $output .= '<p>' . t('Custom settings and overrides for GA Launchpad theme.<br><br><a href="/admin/ga-launchpad/forms">GA Launchpad Admin settings</a>') . '</p>';
+      return $output;
+
+    default:
+  }
+}
+
+/**
+ * Implements hook_theme().
+ */
+function ga_launchpad_module_theme() {
+  return [
+    'ga_launchpad' => [
+      'variables' => [
+        'links' => NULL,
+      ],
+    ],
+  ];
+}
+
+/**
+ * Implements hook_preprocess_page().
+ */
+function ga_launchpad_module_preprocess_page(&$variables) {
+  // Getting module settings from the SettingsForm.
+  $config = \Drupal::config('ga_launchpad_module.settings');
+
+  // Getting config setting for overriding admin theme styles.
+  if (!empty($config->get('override_admintheme_css'))) {
+    // Getting the route object.
+    $route = \Drupal::routeMatch()->getRouteObject();
+    if (\Drupal::service('router.admin_context')->isAdminRoute($route)) {
+      $variables['#attached']['library'][] = 'ga_launchpad_module/ga_launchpad_lib';
+    }
+  }
+}
+
+/**
+ * Implements hook_ENTITY_TYPE_insert().
+ */
+function ga_launchpad_module_user_insert(EntityInterface $entity) {
+  $currentUserRoles = \Drupal::currentUser()->getRoles();
+
+  if (in_array('user_manager', $currentUserRoles)) {
+    $entity->addRole('content_editor');
+    $entity->save();
+  }
+}
+
+/**
+ * Implements hook_form_alter().
+ */
+function ga_launchpad_module_form_alter(&$form, FormStateInterface $form_state, $form_id) {
+  if ($form_id == 'node_article_form' || $form_id == 'node_edit_article_form') {
+    $form['promote']['widget']['#title'] = t('Promote article');
+    $form['promote']['widget']['value']['#title'] = t('Promote article');
+  }
+}

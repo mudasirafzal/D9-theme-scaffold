@@ -1,0 +1,20 @@
+uuid: fe0346f8-f5e0-4785-882b-a3b163d932f7
+langcode: en
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - ga_launchpad
+id: ga_launchpad_powered
+theme: ga_launchpad
+region: ''
+weight: 10
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  provider: system
+  label_display: '0'
+visibility: {  }

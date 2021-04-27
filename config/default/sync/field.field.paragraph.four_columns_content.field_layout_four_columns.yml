@@ -1,0 +1,23 @@
+uuid: 9402f73d-2609-44ac-acbe-c58d8ce99577
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_layout_four_columns
+    - paragraphs.paragraphs_type.four_columns_content
+  module:
+    - options
+id: paragraph.four_columns_content.field_layout_four_columns
+field_name: field_layout_four_columns
+entity_type: paragraph
+bundle: four_columns_content
+label: 'Layout four columns'
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    value: 25-25-25-25
+default_value_callback: ''
+settings: {  }
+field_type: list_string

@@ -1,0 +1,25 @@
+uuid: d674696b-0dad-4db0-8c84-3de693ff7d3d
+langcode: en
+status: false
+dependencies:
+  config:
+    - system.menu.footer-submenu
+  module:
+    - system
+  theme:
+    - ga_wireframe
+id: ga_wireframe_footersubmenu
+theme: ga_wireframe
+region: ''
+weight: 0
+provider: null
+plugin: 'system_menu_block:footer-submenu'
+settings:
+  id: 'system_menu_block:footer-submenu'
+  label: 'Footer submenu'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

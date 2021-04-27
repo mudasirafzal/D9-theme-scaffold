@@ -1,0 +1,18 @@
+uuid: 01137c3b-fe9a-4c6c-846b-013bac576a4c
+langcode: en
+status: false
+dependencies:
+  theme:
+    - ga_launchpad
+id: ga_launchpad_local_actions
+theme: ga_launchpad
+region: ''
+weight: -20
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }

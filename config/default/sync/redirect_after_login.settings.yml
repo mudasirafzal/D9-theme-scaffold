@@ -1,0 +1,7 @@
+login_redirection:
+  anonymous: null
+  authenticated: /admin/dashboard
+  administrator: /admin/dashboard
+  content_editor: /admin/dashboard
+  user_manager: /admin/dashboard
+exclude_urls: ''

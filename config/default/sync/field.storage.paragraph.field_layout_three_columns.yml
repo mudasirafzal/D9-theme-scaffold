@@ -1,0 +1,33 @@
+uuid: 8c8d30d7-17f4-4425-a04b-ca6ce0ed534d
+langcode: en
+status: true
+dependencies:
+  module:
+    - options
+    - paragraphs
+id: paragraph.field_layout_three_columns
+field_name: field_layout_three_columns
+entity_type: paragraph
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: 33-33-33
+      label: '<img src="/modules/custom/ga_launchpad_module/icon/33-33-33.png" alt="thirty-three"/>'
+    -
+      value: 50-25-25
+      label: '<img src="/modules/custom/ga_launchpad_module/icon/50-25-25.png" alt="fifty-twenty-five-twenty-five"/>'
+    -
+      value: 25-25-50
+      label: '<img src="/modules/custom/ga_launchpad_module/icon/25-25-50.png" alt="twenty-five-twenty-five-fifty"/>'
+    -
+      value: 25-50-25
+      label: '<img src="/modules/custom/ga_launchpad_module/icon/25-50-25.png" alt="twenty-five-fifty-twenty-five"/>'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,12 @@
+a {
+  color: var(--darkOnLight);
+  text-decoration: none;
+  font-size: rem(14px);
+  font-family: $font-primary;
+  &:hover {
+    color: var(--purple);
+  }
+  &:focus {
+    color: var(--purple);
+  }
+}

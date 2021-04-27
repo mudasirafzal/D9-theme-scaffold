@@ -1,0 +1,7 @@
+ga_launchpad_module.settings:
+  type: config_object
+  label: GA Launchpad configuration
+  mapping:
+    override_admintheme_css:
+      type: boolean
+      label: Override admin theme

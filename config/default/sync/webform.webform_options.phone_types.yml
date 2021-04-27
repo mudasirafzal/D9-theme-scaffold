@@ -1,0 +1,12 @@
+uuid: 34154a91-36d3-4c27-98f8-198d6892bcbe
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - webform
+id: phone_types
+label: 'Phone type'
+category: Demographic
+likert: false
+options: "Home: Home\nOffice: Office\nCell: Cell\n"

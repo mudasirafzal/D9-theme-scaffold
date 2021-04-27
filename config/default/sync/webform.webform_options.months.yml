@@ -1,0 +1,12 @@
+uuid: 9121a8a4-48cb-419b-a92d-2be51cd49a8f
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - webform
+id: months
+label: Months
+category: 'Date and time'
+likert: false
+options: "January: January\nFebruary: February\nMarch: March\nApril: April\nMay: May\nJune: June\nJuly: July\nAugust: August\nSeptember: September\nOctober: October\nNovember: November\nDecember: December\n"

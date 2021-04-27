@@ -1,0 +1,82 @@
+uuid: 2f9685ed-8416-4d11-a28d-32203201ab15
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_content
+    - node.type.page
+    - paragraphs.paragraphs_type.card
+    - paragraphs.paragraphs_type.card_sets
+    - paragraphs.paragraphs_type.carousel
+    - paragraphs.paragraphs_type.form
+    - paragraphs.paragraphs_type.image
+    - paragraphs.paragraphs_type.text
+    - paragraphs.paragraphs_type.three_columns_content
+    - paragraphs.paragraphs_type.two_columns_content
+  module:
+    - entity_reference_revisions
+    - paragraph_blocks
+third_party_settings:
+  paragraph_blocks:
+    status: 1
+id: node.page.field_content
+field_name: field_content
+entity_type: node
+bundle: page
+label: Content
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      text: text
+      image: image
+      form: form
+      card: card
+      card_sets: card_sets
+      carousel: carousel
+      two_columns_content: two_columns_content
+      three_columns_content: three_columns_content
+    target_bundles_drag_drop:
+      card:
+        enabled: true
+        weight: -22
+      card_sets:
+        enabled: true
+        weight: -21
+      carousel:
+        enabled: true
+        weight: -19
+      carousel_slide_item:
+        weight: -14
+        enabled: false
+      form:
+        enabled: true
+        weight: -23
+      four_columns_content:
+        weight: -15
+        enabled: false
+      icon:
+        weight: -18
+        enabled: false
+      image:
+        enabled: true
+        weight: -24
+      insert_a_drupal_view_or_block_pa:
+        weight: -20
+        enabled: false
+      text:
+        enabled: true
+        weight: -25
+      three_columns_content:
+        enabled: true
+        weight: -16
+      two_columns_content:
+        enabled: true
+        weight: -17
+field_type: entity_reference_revisions

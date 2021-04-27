@@ -1,0 +1,7 @@
+configured: true
+untrusted_roles:
+  - anonymous
+  - administrator
+  - content_editor
+  - user_manager
+log: true

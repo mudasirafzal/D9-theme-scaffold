@@ -1,0 +1,20 @@
+uuid: 3f252921-1c00-4c5b-bcae-7d71981d65a4
+langcode: en
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - ga_wireframe
+id: ga_wireframe_powered
+theme: ga_wireframe
+region: sidebar_first
+weight: 10
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  provider: system
+  label_display: '0'
+visibility: {  }

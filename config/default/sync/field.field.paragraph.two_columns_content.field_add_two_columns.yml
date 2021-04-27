@@ -1,0 +1,57 @@
+uuid: b05d4576-db53-42b8-89e2-42cca6b6e3f3
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_add_two_columns
+    - paragraphs.paragraphs_type.card
+    - paragraphs.paragraphs_type.card_sets
+    - paragraphs.paragraphs_type.form
+    - paragraphs.paragraphs_type.image
+    - paragraphs.paragraphs_type.text
+    - paragraphs.paragraphs_type.two_columns_content
+  module:
+    - entity_reference_revisions
+id: paragraph.two_columns_content.field_add_two_columns
+field_name: field_add_two_columns
+entity_type: paragraph
+bundle: two_columns_content
+label: 'Add two columns'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      card: card
+      card_sets: card_sets
+      form: form
+      image: image
+      text: text
+    target_bundles_drag_drop:
+      card:
+        enabled: true
+        weight: 10
+      card_sets:
+        enabled: true
+        weight: 11
+      form:
+        enabled: true
+        weight: 13
+      image:
+        enabled: true
+        weight: 14
+      insert_a_drupal_view_or_block_pa:
+        weight: 16
+        enabled: false
+      text:
+        enabled: true
+        weight: 15
+      two_columns_content:
+        weight: 9
+        enabled: false
+field_type: entity_reference_revisions

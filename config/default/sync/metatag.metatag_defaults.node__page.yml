@@ -1,0 +1,17 @@
+uuid: cd578a52-8838-46b8-b393-7d4c20839197
+langcode: en
+status: true
+dependencies: {  }
+id: node__page
+label: 'Content: Basic page'
+tags:
+  title: '[node:title]'
+  description: '[node:field_sub_title]'
+  canonical_url: '[node:url]'
+  og_image: '[node:field_images]'
+  og_title: '[node:title]'
+  og_url: '[node:url]'
+  schema_web_site_name: '[site:name]'
+  schema_web_site_url: '[site:url]'
+  schema_web_site_type: WebSite
+  schema_web_site_id: '[site:url-brief]'

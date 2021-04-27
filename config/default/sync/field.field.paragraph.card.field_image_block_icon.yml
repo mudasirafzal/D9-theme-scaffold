@@ -1,0 +1,19 @@
+uuid: 0ba79e38-dc79-42af-b7b9-8f6beb3e1f0e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_image_block_icon
+    - paragraphs.paragraphs_type.card
+id: paragraph.card.field_image_block_icon
+field_name: field_image_block_icon
+entity_type: paragraph
+bundle: card
+label: 'Image block icon'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

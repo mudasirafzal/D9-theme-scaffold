@@ -1,0 +1,63 @@
+uuid: db3f70fb-37d8-410f-9cd7-2f4c368885f1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_add_four_columns
+    - paragraphs.paragraphs_type.card
+    - paragraphs.paragraphs_type.card_sets
+    - paragraphs.paragraphs_type.form
+    - paragraphs.paragraphs_type.four_columns_content
+    - paragraphs.paragraphs_type.image
+    - paragraphs.paragraphs_type.text
+  module:
+    - entity_reference_revisions
+id: paragraph.four_columns_content.field_add_four_columns
+field_name: field_add_four_columns
+entity_type: paragraph
+bundle: four_columns_content
+label: 'Add four columns'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      card: card
+      card_sets: card_sets
+      form: form
+      image: image
+      text: text
+    target_bundles_drag_drop:
+      card:
+        enabled: true
+        weight: -17
+      card_sets:
+        enabled: true
+        weight: -16
+      form:
+        enabled: true
+        weight: -15
+      four_columns_content:
+        weight: -18
+        enabled: false
+      image:
+        enabled: true
+        weight: -14
+      insert_a_drupal_view_or_block_pa:
+        weight: -12
+        enabled: false
+      text:
+        enabled: true
+        weight: -13
+      three_columns_content:
+        weight: -19
+        enabled: false
+      two_columns_content:
+        weight: -20
+        enabled: false
+field_type: entity_reference_revisions

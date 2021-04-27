@@ -1,0 +1,24 @@
+uuid: 291f1afb-3f2b-40b8-869b-9ee499f0c938
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: content_type
+label: 'Content type'
+type: 'canonical_entities:node'
+pattern: '/[node:title]'
+selection_criteria:
+  b8074726-158d-42a5-9a19-348736ed5ff8:
+    id: node_type
+    bundles:
+      article: article
+      page: page
+      people: people
+    negate: false
+    context_mapping:
+      node: node
+    uuid: b8074726-158d-42a5-9a19-348736ed5ff8
+selection_logic: and
+weight: -5
+relationships: {  }

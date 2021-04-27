@@ -1,0 +1,27 @@
+<?php
+
+/**
+ * @file
+ * Functions to support theming in the ga_test_mudasir theme.
+ */
+
+
+use \Drupal\Core\Entity\EntityTypeManagerInterface;
+use \Drupal\Core\Entity\EntityManager;
+use Drupal\Core\Entity\EntityInterface;
+
+/**
+ * Implements hook_preprocess_node().
+ */
+function ga_test_mudasir_preprocess_node(&$variables) {
+  if ($variables['node']->bundle() == 'page') {
+    $nid = $variables['node']->id();
+    if (isset($nid)) {
+      $node = \Drupal::entityTypeManager()->getStorage('node')->load($nid);
+    }
+    $view_builder = \Drupal::entityTypeManager()->getViewBuilder('node');
+    if (isset($view_builder)) {
+      $variables['node_hero'] = $view_builder->view($node, 'hero');
+    }
+  }
+}

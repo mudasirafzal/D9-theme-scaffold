@@ -1,0 +1,20 @@
+uuid: 0a900b4c-6afd-4c07-bb7c-2b5ba39a4f8e
+langcode: en
+status: false
+dependencies:
+  theme:
+    - ga_test_mudasir
+_core:
+  default_config_hash: 7rR9chwXvdM2H8OYMAYx9Zj3GGlPMrZp_M3ZA4thYTk
+id: ga_test_mudasir_page_title
+theme: ga_test_mudasir
+region: content
+weight: -5
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  provider: core
+  label_display: '0'
+visibility: {  }

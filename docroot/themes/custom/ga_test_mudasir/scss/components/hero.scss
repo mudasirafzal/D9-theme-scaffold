@@ -1,0 +1,31 @@
+@import '../settings.all';
+
+.hero-container {
+  position: relative;
+  min-height: rem(300px);
+  background-color: var(--grey98);
+}
+.hero__info {
+  position: absolute;
+  top: 22%;
+  width: 100%;
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  @include breakpoint($tablet) {
+    top: 32%;
+  }
+
+  .hero__title {
+    margin: 0px;
+  }
+
+  .hero__sub-title {
+    margin: 0px;
+  }
+}
+.hero__image {
+  img {
+    display: block;
+  }
+}

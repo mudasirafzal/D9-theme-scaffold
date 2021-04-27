@@ -1,0 +1,15 @@
+uuid: fe01dfc6-ad67-4944-af2a-c80c5b778b98
+langcode: en
+status: true
+dependencies: {  }
+name: paragraph_image_component
+label: 'Paragraph Image Component (1110x370)'
+effects:
+  b2183909-6567-4eb4-969b-c605df1a3129:
+    uuid: b2183909-6567-4eb4-969b-c605df1a3129
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 1110
+      height: 370
+      anchor: center-top

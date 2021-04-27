@@ -1,0 +1,16 @@
+uuid: e6a42677-d80e-4705-9e52-8fc791d9b640
+langcode: en
+status: true
+dependencies:
+  module:
+    - ratio_crop
+name: people_crop
+label: 'People crop'
+effects:
+  993e615a-ff88-47d1-9b48-1b36fef9e0fd:
+    uuid: 993e615a-ff88-47d1-9b48-1b36fef9e0fd
+    id: image_crop_ratio
+    weight: 1
+    data:
+      anchor: center-center
+      aspect_ratio: '101:93'

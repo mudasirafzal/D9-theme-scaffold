@@ -1,0 +1,22 @@
+uuid: 2a15d2f6-3f1f-4e66-959e-8214e45503ca
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - ga_test_mudasir
+_core:
+  default_config_hash: KHQIJ7Vfl25lTjzIc7qIvnuistt-Mw2O0kG4jCofmkI
+id: ga_test_mudasir_messages
+theme: ga_test_mudasir
+region: highlighted
+weight: -6
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  provider: system
+  label_display: '0'
+visibility: {  }

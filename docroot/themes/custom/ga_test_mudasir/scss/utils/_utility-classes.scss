@@ -1,0 +1,18 @@
+.container {
+  max-width: $container-max-width;
+  margin: 0 auto;
+  @include breakpoint($desktop-medium) {
+    padding: 0px rem(15px);
+  }
+}
+
+.container-wide {
+  max-width: $container-wide-max-width;
+  padding: 0 rem(42px);
+  margin: 0 auto;
+}
+
+.container-large {
+  max-width: $container-large-width;
+  margin: 0 auto;
+}

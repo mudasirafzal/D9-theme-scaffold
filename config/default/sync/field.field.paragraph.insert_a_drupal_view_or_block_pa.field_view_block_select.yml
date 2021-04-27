@@ -1,0 +1,29 @@
+uuid: ae1d8272-d024-4bb3-860c-afaad0bad0c0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_view_block_select
+    - paragraphs.paragraphs_type.insert_a_drupal_view_or_block_pa
+    - taxonomy.vocabulary.views_block_selector
+id: paragraph.insert_a_drupal_view_or_block_pa.field_view_block_select
+field_name: field_view_block_select
+entity_type: paragraph
+bundle: insert_a_drupal_view_or_block_pa
+label: 'view block select'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      views_block_selector: views_block_selector
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

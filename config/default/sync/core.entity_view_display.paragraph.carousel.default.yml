@@ -1,0 +1,26 @@
+uuid: fd3d6b9f-baed-4fac-8804-0d1c8013beab
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.carousel.field_carousel_items
+    - field.field.paragraph.carousel.field_carousel_title
+    - paragraphs.paragraphs_type.carousel
+  module:
+    - entity_reference_revisions
+id: paragraph.carousel.default
+targetEntityType: paragraph
+bundle: carousel
+mode: default
+content:
+  field_carousel_items:
+    type: entity_reference_revisions_entity_view
+    weight: 0
+    label: visually_hidden
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_carousel_title: true

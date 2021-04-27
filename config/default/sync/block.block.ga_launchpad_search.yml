@@ -1,0 +1,21 @@
+uuid: 61ca69f6-c8ff-4415-8fdf-e3f6b413003b
+langcode: en
+status: false
+dependencies:
+  module:
+    - search
+  theme:
+    - ga_launchpad
+id: ga_launchpad_search
+theme: ga_launchpad
+region: ''
+weight: -1
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: Search
+  provider: search
+  label_display: visible
+  page_id: node_search
+visibility: {  }

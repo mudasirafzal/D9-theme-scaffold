@@ -1,0 +1,23 @@
+uuid: 56a43863-3e23-425e-94cc-d20a349bddef
+langcode: en
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - ga_wireframe
+id: ga_wireframe_branding
+theme: ga_wireframe
+region: ''
+weight: 0
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  provider: system
+  label_display: '0'
+  use_site_logo: true
+  use_site_name: false
+  use_site_slogan: false
+visibility: {  }

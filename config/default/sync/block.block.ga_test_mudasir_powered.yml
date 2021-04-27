@@ -1,0 +1,22 @@
+uuid: 5a7dfa6c-ed66-4051-b084-6fe7e5483af5
+langcode: en
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - ga_test_mudasir
+_core:
+  default_config_hash: jQQUUWN2Uxr5qZtc9zcJKBCxpKY8orN1u2HPqYYRQDI
+id: ga_test_mudasir_powered
+theme: ga_test_mudasir
+region: footer
+weight: -5
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  provider: system
+  label_display: '0'
+visibility: {  }
