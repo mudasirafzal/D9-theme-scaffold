@@ -2,7 +2,7 @@
 ## Overview
 The Custom subtheme is set up to utilize the `base => sub-theme` relationship.
 
-
+```
 custom/ga_test_mudasir/ 
 ### Folder Structure
 |-- dist/css/  (generated css) 
@@ -23,6 +23,7 @@ custom/ga_test_mudasir/
 |-- gulpfile.js  (configured gulp file)
 |-- package.json  (configured to load dependencies by npm)
 |-- screenshot.png (placeholder theme screenshot file)
+```
 
 ### Sass Structure
 Setup of the Sass files containing partials according to the SMACSS methodologies.
